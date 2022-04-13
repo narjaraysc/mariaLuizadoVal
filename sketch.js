@@ -21,7 +21,7 @@ function setup(){
     //Criando menino que corre 
     boy = createSprite (200,300);
     boy.scale = 0.08 ; 
-    boy.setAnimation("jaxon", boyImg);
+    boy.addAnimation("jaxon", boyImg);
 
 
     // Criando Boundary (Limite) esquerdo  
